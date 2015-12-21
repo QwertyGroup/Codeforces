@@ -7,26 +7,32 @@ var n:integer;
     p1, p2, p3, p4:integer;
     taxi:integer;
     temp1, temp2, temp3:integer;
-{----BubbleSort----}
-procedure pBubbleSort(var S:Tarr);
-    var i, j, T:integer;
+{----QuickSort----}
+procedure pQSort(l,r:longint; var V:Tarr);
+var i,j:longint;
+    w,q:byte;
+begin
+  i := l; j := r;
+  q := v[(l+r) div 2];
+  repeat
+    while (v[i] < q) do inc(i);
+    while (q < v[j]) do dec(j);
+    if (i <= j) then
     begin
-            for i:=1 to n-1 do
-                for j:=1 to n-i do
-                    if S[j] > S[j+1] then
-                        begin
-                            T:=S[j];
-                            S[j]:=S[j+1];
-                            S[j+1]:=T;
-                        end;
+      w:=v[i]; v[i]:=v[j]; v[j]:=w;
+      inc(i); dec(j);
     end;
+  until (i > j);
+  if (l < j) then pQSort(l,j,S);
+  if (i < r) then pQSort(i,r,S);
+end;
 {----Main----}
 begin
     readln(n);
     for i:=1 to n do
         read(S[i]);
 
-    pBubbleSort(S);
+    pQSort(1,n,S);
 
     p1:=0;
     p2:=0;
