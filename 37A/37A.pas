@@ -17,20 +17,29 @@ begin
                     A[j]:=A[j+1];
                     A[j+1]:=T;
                 end;
-        curNum:=A[1];
-        max:=0;
-        curMax:=1;
-        counter:=1;
-        for i:=1 to n do
-                if (curNum <> A[i]) then
-                    begin
-                        inc(counter);
-                        curNum:=A[i];
-                        inc(curMax);
-                        if max < curMax then
-                            max:=curMax;
-                    end;
+    curNum:=A[1];
+    counter:=1;
+    for i:=1 to n do
+            if curNum <> A[i] then
+                begin
+                    inc(counter);
+                    curNum:=A[i];
+                end;
+    curNum:=A[1];
+    max:=0;
+    curMax:=0;
+    for i:=1 to n do
+        begin
+            if curNum = A[i] then inc(curMax);
+            if curMax > max then max:=curMax;
+            if curNum <> A[i+1] then
+                begin
+                    curNum:=A[i+1];
+                    curMax:=0;
+                end;
+        end;
     writeln(max,' ',counter);
-    readln;
-    readln;
+
+    //readln;
+    //readln;
 end.
