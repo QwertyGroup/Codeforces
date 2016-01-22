@@ -1,3 +1,7 @@
 ﻿  Source.cpp
+c:\programming\programs\codeforces\trunk\141a\141a\141a\source.cpp(17): warning C4018: '<': signed/unsigned mismatch
+c:\programming\programs\codeforces\trunk\141a\141a\141a\source.cpp(18): warning C4018: '<': signed/unsigned mismatch
+c:\programming\programs\codeforces\trunk\141a\141a\141a\source.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\programming\programs\codeforces\trunk\141a\141a\141a\source.cpp(27): warning C4018: '<': signed/unsigned mismatch
   141A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\141A\141A\Debug\141A.exe
   141A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\141A\141A\Debug\141A.pdb (Partial PDB)
