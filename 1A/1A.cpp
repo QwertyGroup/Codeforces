@@ -1,3 +1,6 @@
+//CoodeForces Problem 1 A
+//Театральная площадь
+
 #include <iostream>
 #include <stdio.h>
 #include <string>

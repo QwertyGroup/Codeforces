@@ -1,3 +1,6 @@
+//CoodeForces Problem 141 A
+//Веселая шутка
+
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -24,7 +27,7 @@ int main()
 			}
 
 	for (int i = 0; i + 1 < sumS.size(); i++)
-		for (int j = 0; j + i + 
+		for (int j = 0; j + i +
 			1 < sumS.size(); j++)
 			if (int(sumS[j]) > int(sumS[j + 1]))
 			{
