@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\programming\programs\codeforces\trunk\136a\136a\136a\source.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\programming\programs\codeforces\trunk\136a\136a\136a\source.cpp(20): warning C4018: '<': signed/unsigned mismatch
+  136A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\136A\136A\Debug\136A.exe
+  136A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\136A\136A\Debug\136A.pdb (Partial PDB)

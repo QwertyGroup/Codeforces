@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\programming\programs\codeforces\trunk\110a\110a\110a\source.cpp(14): warning C4018: '<=': signed/unsigned mismatch
+  110A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\110A\110A\Debug\110A.exe
+  110A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\110A\110A\Debug\110A.pdb (Partial PDB)
