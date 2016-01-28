@@ -8,12 +8,13 @@ using namespace std;
 
 int main()
 {
-	int k, n, w;
+	int k, n, w; //price, money, amount
 	cin >> k >> n >> w;
-	int i;
-	for (i = 1; i < w; i++);
-		n -= k*i;
-	cout << n;
-	system("pause");
+	int price = 0;
+	for (int i = 1; i <= w; i++)
+		price += i*k;
+	if (n >= price) cout << 0;
+	else cout << price - n;
+	//system("pause");
 	return 0;
 }
