@@ -1,4 +1,5 @@
 ﻿  Source.cpp
 c:\programming\programs\codeforces\trunk\208a\208a\source.cpp(13): warning C4018: '<=': signed/unsigned mismatch
+c:\programming\programs\codeforces\trunk\208a\208a\source.cpp(33): warning C4018: '<': signed/unsigned mismatch
   208A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\208A\Debug\208A.exe
   208A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\208A\Debug\208A.pdb (Partial PDB)
