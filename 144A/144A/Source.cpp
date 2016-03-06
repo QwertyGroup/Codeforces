@@ -10,19 +10,29 @@ int main()
 {
 	int n;
 	cin >> n;
-	vector <int> A(n+1);
-	for (int i = 1; i + 1 <= A.size(); i++)
+	vector <int> A(n);
+	for (int i = 0; i < n; i++)
 		cin >> A[i];
-	int max = 0;
-	int min = 101;
-	int nmax = 0;
-	int nmin = 0;
-	for (int i = 1; i + 1 <= A.size(); i++)
-	{
 
-	}
+	int min = 101, max = 0, nmin, nmax;
 	
-	cout << (n - nmin) + nmax;
-	system("pause");
+	for (int i = 0; i < n; i++)
+	{
+		if (max < A[i]) { max = A[i]; nmax = i; }
+	}
+
+	for (int i = n - 1; i >= 0; i--)
+	{
+		if (min > A[i]) { min = A[i]; nmin = i; }
+	}
+
+	//nmin++; nmax++;
+	int time;
+	if (nmax > nmin) time = nmax + (n - nmin - 2);
+	else time = nmax + (n - nmin - 1);
+
+	//cout << "MINPOS: " << nmin << " MAXPOS: " << nmax << endl;
+	cout << time << endl;
+	//system("pause");
 	return 0;
 }
