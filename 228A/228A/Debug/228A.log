@@ -1,5 +1,5 @@
 ﻿  Source.cpp
+c:\programming\programs\codeforces\trunk\228a\228a\source.cpp(14): warning C4018: '<': signed/unsigned mismatch
 c:\programming\programs\codeforces\trunk\228a\228a\source.cpp(15): warning C4018: '<': signed/unsigned mismatch
-c:\programming\programs\codeforces\trunk\228a\228a\source.cpp(16): warning C4018: '<': signed/unsigned mismatch
   228A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\228A\Debug\228A.exe
   228A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\228A\Debug\228A.pdb (Partial PDB)

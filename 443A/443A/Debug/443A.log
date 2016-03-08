@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\programming\programs\codeforces\trunk\443a\443a\source.cpp(34): warning C4018: '<': signed/unsigned mismatch
+  443A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\443A\Debug\443A.exe
+  443A.vcxproj -> C:\Programming\Programs\Codeforces\trunk\443A\Debug\443A.pdb (Partial PDB)
