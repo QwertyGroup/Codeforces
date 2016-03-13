@@ -9,18 +9,18 @@ int main()
 {
 	int n;
 	cin >> n;
+	int sum = 0;
+	int i = 0;
 
-	int cur = 1;
-	int counter = 1;
-	int inc = 2;
-	while (cur < n)
+	while (true)
 	{
-		cur += inc;
-		inc += cur;
-		counter++;
-	}
+		i++;
+		sum += i*(i + 1) / 2;
+		if (sum == n) break;
+		if (sum >= n) { i--; break; }
+	} 
 
-	cout << counter;
-	system("pause");
+	cout << i;
+	//system("pause");
 	return 0;
 }
